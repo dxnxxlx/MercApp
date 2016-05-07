@@ -1,0 +1,21 @@
+doctype html
+html(lang='es-PE')
+	head
+		meta(charset='UTF-8')
+		block titulo	
+			title titulo aquí
+		link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/materialize.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/materialize.min.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/main.css')  
+	body
+		include ../layout/navegador.jade
+		block contenido
+
+
+		script(type='text/javascript', src='assets/js/materialize.min.js')
+		script(type='text/javascript', src='assets/js/materialize.js')
+		script(type='text/javascript', src='assets/js/main.js')
+
+
