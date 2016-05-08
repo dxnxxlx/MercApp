@@ -7,15 +7,15 @@ section#home {
   height: 100%;
   width: 100%;
   background-image: url("../imagenes/bgapp.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%; }
+  background-repeat: no-repeat; }
   section#home .logo {
     margin: auto; }
     section#home .logo img {
       width: 34%;
       margin-left: 33%; }
   section#home .mercapp img {
-    width: 100%; }
+    width: 100%;
+    margin-top: -16px; }
   section#home .img-home {
     width: 66%;
     height: 180px;
@@ -23,7 +23,7 @@ section#home {
     margin: auto;
     margin-bottom: 20px; }
   section#home button.busca-home {
-    display: inline-block;
+    display: block;
     background-color: #F28705;
     border-radius: 18px;
     height: 40px;
@@ -40,7 +40,7 @@ section#home {
       margin: 0;
       margin: auto; }
   section#home button.inicia-sesion {
-    display: inline-block;
+    display: block;
     background-color: #A1BC31;
     border-radius: 20px;
     height: 40px;
@@ -60,11 +60,19 @@ section#home {
     font-family: 'Raleway';
     font-size: 14px;
     margin: 0;
-    margin-left: 10%; }
+    text-align: center; }
     section#home p.registrate a {
       text-decoration: none; }
       section#home p.registrate a span {
         font-weight: bold;
         color: black; }
+  section#home .redes {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 11px; }
+    section#home .redes .red-social {
+      display: inline-block;
+      padding-left: 3px;
+      padding-right: 3px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,6 @@ section#home{
 	width: 100%;
 	background-image: url('../imagenes/bgapp.jpg');
 	background-repeat: no-repeat;
-	background-size: 100%;
 	.logo{
 		margin: auto;
 		img{
@@ -15,6 +14,7 @@ section#home{
 	.mercapp{
 		img{
 			width: 100%;
+			margin-top: -16px;
 		}
 	}
 	.img-home{
@@ -25,7 +25,7 @@ section#home{
 		margin-bottom: 20px;
 	}
 	button.busca-home{
-		@include inline;
+		@include block;
 		background-color: $naranja;
 		border-radius: 18px;
 		height: 40px;
@@ -47,7 +47,7 @@ section#home{
 
 	}
 	button.inicia-sesion{
-		@include inline;
+		@include block;
 		background-color: $verde-claro;
 		border-radius: 20px;
 		height: 40px;
@@ -72,13 +72,23 @@ section#home{
 		font-family: 'Raleway';
 		font-size: 14px;
 		margin: 0;
-		margin-left: 10%;
+		text-align: center;
 		a{
 			text-decoration: none;
 			span{
 				font-weight: bold;
 				color: black;
 			}
+		}
+	}
+	.redes{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 11px;
+		.red-social{
+			@include inline;
+			padding-left: 3px;
+			padding-right: 3px;
 		}
 	}
 }
