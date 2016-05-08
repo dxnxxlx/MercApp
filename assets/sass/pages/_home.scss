@@ -1,10 +1,85 @@
-body{
+section#home{
+	padding-top: 30px;
+	height: 100%;
+	width: 100%;
 	background-image: url('../imagenes/bgapp.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	.logo{
+		margin: auto;
+		img{
+			width: 34%;
+			margin-left: 33%;
+		}
+	}
+	.mercapp{
+		img{
+			width: 100%;
+		}
+	}
+	.img-home{
+		width: 66%;
+		height: 180px;
+		border: 1px solid black;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	button.busca-home{
+		@include inline;
+		background-color: $naranja;
+		border-radius: 18px;
+		height: 40px;
+		width: 190px;
+		border-style: none;
+		margin-bottom: 15px;
+		margin-left: 16%;
+		a{
+			p{
+				font-family: 'Raleway';
+				font-weight: 900;
+				font-size: 18px;
+				text-decoration: none;
+				color: black;
+				margin: 0;
+				margin: auto;
+			}				
+		}	
 
-	section{
-		.logo{
-			margin-left: auto;
-			margin-right: auto;
+	}
+	button.inicia-sesion{
+		@include inline;
+		background-color: $verde-claro;
+		border-radius: 20px;
+		height: 40px;
+		width: 190px;
+		border-style: none;
+		margin-bottom: 5px;
+		margin-left: 16%;
+		a{
+			p{
+				font-family: 'Raleway';
+				font-weight: 900;
+				font-size: 20px;
+				text-decoration: none;
+				color: black;
+				margin: 0;
+				margin: auto;
+			}				
+		}	
+
+	}
+	p.registrate{
+		font-family: 'Raleway';
+		font-size: 14px;
+		margin: 0;
+		margin-left: 10%;
+		a{
+			text-decoration: none;
+			span{
+				font-weight: bold;
+				color: black;
+			}
 		}
 	}
 }
+

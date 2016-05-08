@@ -1,7 +1,70 @@
 body {
-  background-image: url("../imagenes/bgapp.jpg"); }
-  body section .logo {
-    margin-left: auto;
-    margin-right: auto; }
+  height: 100%;
+  width: 100%; }
+
+section#home {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  background-image: url("../imagenes/bgapp.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  section#home .logo {
+    margin: auto; }
+    section#home .logo img {
+      width: 34%;
+      margin-left: 33%; }
+  section#home .mercapp img {
+    width: 100%; }
+  section#home .img-home {
+    width: 66%;
+    height: 180px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px; }
+  section#home button.busca-home {
+    display: inline-block;
+    background-color: #F28705;
+    border-radius: 18px;
+    height: 40px;
+    width: 190px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-left: 16%; }
+    section#home button.busca-home a p {
+      font-family: 'Raleway';
+      font-weight: 900;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      margin: 0;
+      margin: auto; }
+  section#home button.inicia-sesion {
+    display: inline-block;
+    background-color: #A1BC31;
+    border-radius: 20px;
+    height: 40px;
+    width: 190px;
+    border-style: none;
+    margin-bottom: 5px;
+    margin-left: 16%; }
+    section#home button.inicia-sesion a p {
+      font-family: 'Raleway';
+      font-weight: 900;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      margin: 0;
+      margin: auto; }
+  section#home p.registrate {
+    font-family: 'Raleway';
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10%; }
+    section#home p.registrate a {
+      text-decoration: none; }
+      section#home p.registrate a span {
+        font-weight: bold;
+        color: black; }
 
 /*# sourceMappingURL=main.css.map */
