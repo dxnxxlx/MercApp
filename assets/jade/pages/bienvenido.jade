@@ -1,9 +1,98 @@
 extends ../helpers/base.jade
 
 block titulo
-	title Home
-
-
+	title Bienvenido
 block contenido
-	section
-		h1 Hola
+	section#bienvenido
+		h5 ¡Bienvenido a MercApp!
+		iframe(src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d124843.06992235642!2d-76.9302933!3d-12.0884535!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1462776600228" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen)
+		h6 ¿Donde te encuentras?
+		a.dropdown-button.btn(href="#" data-activates="dropdown1") Selecciona tu distrito
+		ul#dropdown1.dropdown-content
+			li
+				a(href="#!") Lima
+			li
+				a(href="#!") Ancón
+			li
+				a(href="#!") Ate
+			li
+				a(href="#!") Barranco
+			li
+				a(href="#!") Breña
+			li
+				a(href="#!") Carabayllo
+			li
+				a(href="#!") Chaclacayo
+			li
+				a(href="#!") Chorrillos
+			li
+				a(href="#!") Cieneguilla	
+			li
+				a(href="#!") Comas	
+			li
+				a(href="#!") El Agustino	
+			li
+				a(href="#!") Independencia	
+			li
+				a(href="#!") Jesus Maria	
+			li
+				a(href="#!") La Molina	
+			li
+				a(href="#!") La Victoria	
+			li
+				a(href="#!") Lince	
+			li
+				a(href="#!") Los Olivos
+			li
+				a(href="#!") Lurigancho	
+			li
+				a(href="#!") Lurin	
+			li
+				a(href="#!") Magdalena del Mar	
+			li
+				a(href="#!") Pueblo Libre
+			li
+				a(href="#!") Miraflores	
+			li
+				a(href="#!") Pachacamac	
+			li
+				a(href="#!") Pucusana	
+			li
+				a(href="#!") Puente Piedra	
+			li
+				a(href="#!") Punta Hermosa	
+			li
+				a(href="#!") Punta Negra	
+			li
+				a(href="#!") Rimac	
+			li
+				a(href="#!") San Bartolo	
+			li
+				a(href="#!") San Borja	
+			li
+				a(href="#!") San Isidro	
+			li
+				a(href="#!") San Juan de Lurigancho
+			li
+				a(href="#!") San Juan de Miraflores
+			li
+				a(href="#!") San Luis	
+			li
+				a(href="#!") San Martin de Porres	
+			li
+				a(href="#!") San Miguel	
+			li
+				a(href="#!") Santa Anita	
+			li
+				a(href="#!") Santa Maria del Mar	
+			li
+				a(href="#!") Santa Rosa	
+			li
+				a(href="#!") Santiago de Surco
+			li
+				a(href="#!") Surquillo	
+			li
+				a(href="#!") Villa EL Salvador	
+			li
+				a(href="#!") Villa Maria del Triunfo 				 																																										   
+		a.btn(href="#" ) Activa mi GPS		

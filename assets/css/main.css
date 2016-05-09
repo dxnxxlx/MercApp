@@ -90,6 +90,112 @@ section#home {
       padding-left: 3px;
       padding-right: 3px; }
 
+#bienvenido {
+  background: #A7E29F;
+  text-align: center;
+  padding-bottom: 11px; }
+  #bienvenido h5 {
+    margin: 0;
+    padding: 25px 0;
+    font-weight: 700; }
+  #bienvenido h6 {
+    padding: 15px 0;
+    font-weight: 700; }
+  #bienvenido .btn {
+    margin: 10px 0;
+    background-color: #F28705; }
+
+#lista {
+  background: #A7E29F;
+  text-align: center;
+  padding-bottom: 21px; }
+  #lista .btn {
+    background-color: #F28705;
+    color: black;
+    margin: 25px 0 15px 0; }
+  #lista .img {
+    width: 120px; }
+    #lista .img img {
+      width: 100%; }
+  #lista h5 {
+    font-weight: bold;
+    margin-bottom: 30px; }
+  #lista .s7 {
+    text-align: left; }
+    #lista .s7 h6 {
+      margin: 0 0 10px;
+      font-weight: bolder; }
+    #lista .s7 p {
+      margin: 5px 0; }
+  #lista .descripcion {
+    margin: 20px 0 0; }
+
+section#mapa-mercado-elegido {
+  background-color: #BBDBAC;
+  background-size: 100%; }
+
+section#mapa-mercados {
+  background-color: #BBDBAC;
+  background-size: 100%; }
+  section#mapa-mercados .lista-dropdown {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    section#mapa-mercados .lista-dropdown a.btn {
+      border-radius: 31px;
+      background-color: #A1BC31;
+      font-size: 14px;
+      font-weight: 600;
+      height: 30px; }
+    section#mapa-mercados .lista-dropdown ul#dropdown1 {
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      border-radius: 7px; }
+      section#mapa-mercados .lista-dropdown ul#dropdown1 li a {
+        color: black; }
+        section#mapa-mercados .lista-dropdown ul#dropdown1 li a:hover {
+          background-color: #A1BC31;
+          color: white; }
+  section#mapa-mercados p.haz-click {
+    text-align: center;
+    font-weight: 600; }
+
+section#mapa-mercado-elegido {
+  background-color: #BBDBAC;
+  background-size: 100%; }
+  section#mapa-mercado-elegido .lista-dropdown {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    section#mapa-mercado-elegido .lista-dropdown a.btn {
+      border-radius: 25px;
+      background-color: #A1BC31;
+      font-size: 14px;
+      font-weight: 600;
+      height: 30px; }
+    section#mapa-mercado-elegido .lista-dropdown ul#dropdown1 {
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+      border-radius: 7px; }
+      section#mapa-mercado-elegido .lista-dropdown ul#dropdown1 li a {
+        color: black;
+        font-size: 13px; }
+        section#mapa-mercado-elegido .lista-dropdown ul#dropdown1 li a:hover {
+          background-color: #A1BC31;
+          color: white; }
+  section#mapa-mercado-elegido .datos-mercado {
+    margin-bottom: 20px; }
+    section#mapa-mercado-elegido .datos-mercado p {
+      font-size: 13px; }
+      section#mapa-mercado-elegido .datos-mercado p.nombre-mercado {
+        font-weight: 600;
+        font-size: 16px; }
+    section#mapa-mercado-elegido .datos-mercado .img-mercado img {
+      display: inline-block;
+      margin: auto;
+      text-align: center; }
+  section#mapa-mercado-elegido .mapa {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
 #perfil {
   background: #A7E29F;
   margin: 0;
