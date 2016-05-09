@@ -130,13 +130,28 @@ section#home {
   #lista .descripcion {
     margin: 20px 0 0; }
 
-section#mapa-mercado-elegido {
+section#mercado-cercano {
   background-color: #BBDBAC;
-  background-size: 100%; }
+  background-size: 100%;
+  padding-top: 10px;
+  padding-bottom: 4px; }
+  section#mercado-cercano .mercados-cercanos {
+    font-weight: 600;
+    font-size: 15px; }
+  section#mercado-cercano .mapa {
+    margin-bottom: 20px;
+    margin-top: 15px; }
+  section#mercado-cercano .datos-mercado {
+    margin-bottom: 30px; }
+    section#mercado-cercano .datos-mercado p {
+      line-height: 1; }
+    section#mercado-cercano .datos-mercado .nombre-mercado {
+      font-weight: 600; }
 
 section#mapa-mercados {
   background-color: #BBDBAC;
-  background-size: 100%; }
+  background-size: 100%;
+  padding-bottom: 27px; }
   section#mapa-mercados .lista-dropdown {
     margin-top: 20px;
     margin-bottom: 10px; }
@@ -161,10 +176,11 @@ section#mapa-mercados {
 
 section#mapa-mercado-elegido {
   background-color: #BBDBAC;
-  background-size: 100%; }
+  background-size: 100%;
+  padding-bottom: 8px; }
   section#mapa-mercado-elegido .lista-dropdown {
-    margin-top: 20px;
-    margin-bottom: 10px; }
+    margin-top: 13px;
+    margin-bottom: 8px; }
     section#mapa-mercado-elegido .lista-dropdown a.btn {
       border-radius: 25px;
       background-color: #A1BC31;
@@ -181,17 +197,21 @@ section#mapa-mercado-elegido {
         section#mapa-mercado-elegido .lista-dropdown ul#dropdown1 li a:hover {
           background-color: #A1BC31;
           color: white; }
-  section#mapa-mercado-elegido .datos-mercado {
-    margin-bottom: 20px; }
-    section#mapa-mercado-elegido .datos-mercado p {
-      font-size: 13px; }
-      section#mapa-mercado-elegido .datos-mercado p.nombre-mercado {
-        font-weight: 600;
-        font-size: 16px; }
-    section#mapa-mercado-elegido .datos-mercado .img-mercado img {
-      display: inline-block;
-      margin: auto;
-      text-align: center; }
+  section#mapa-mercado-elegido .datos-mercado a {
+    text-decoration: none;
+    color: black; }
+  section#mapa-mercado-elegido .datos-mercado p {
+    font-size: 13px; }
+    section#mapa-mercado-elegido .datos-mercado p.nombre-mercado {
+      font-weight: 600;
+      font-size: 16px; }
+  section#mapa-mercado-elegido .datos-mercado .img-mercado img {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 125px;
+    margin-right: 15px;
+    margin-bottom: 7px; }
   section#mapa-mercado-elegido .mapa {
     margin-top: 15px;
     margin-bottom: 15px; }

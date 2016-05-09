@@ -1,5 +1,23 @@
-section#mapa-mercado-elegido{
+section#mercado-cercano{
 	background-color: $verde-fondo;
 	background-size: 100%;
-	
+	padding-top: 10px;
+	padding-bottom: 4px;
+	.mercados-cercanos{
+		font-weight: 600;
+		font-size: 15px;
+	}
+	.mapa{
+		margin-bottom: 20px;
+		margin-top: 15px;
+	}
+	.datos-mercado{
+		margin-bottom: 30px;
+		p{
+			line-height: 1;
+		}
+		.nombre-mercado{
+			font-weight: 600;
+		}
+	}
 }

@@ -1,40 +1,47 @@
-extends ../helpers/base.jade
+doctype html
+html(lang='es-PE')
+	head
+		meta(charset='UTF-8')
+		title Home
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+		link(rel="shortcut icon", type="image/png", href="assets/imagenes/logo-ma.png")
+		link(href='https://fonts.googleapis.com/css?family=Raleway:400,600,800,900,700', rel='stylesheet', type='text/css')
+		link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/materialize.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/materialize.min.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/main.css')  
+	body
+		section#home
+			.container
+				.row
+					.col.s12		
+						.logo
+							img(src='assets/imagenes/logo-ma.png')
+						.mercapp
+							img(src='assets/imagenes/logo_mapp.png')
+						.img-home
+						button.busca-home
+							a(href="bienvenido.html")
+								p Busca tu mercado
+						button.inicia-sesion
+							a
+								p Iniciar sesión
+						p.registrate ¿No tienes una cuenta? 
+							a 
+								span Regístrate
+						.redes
+							.red-social
+								span
+									i.fa.fa-facebook.fa-2x
+							.red-social			
+								span
+									i.fa.fa-twitter.fa-2x
+							.red-social			
+								span
+									i.fa.fa-google-plus.fa-2x
 
-block titulo
-	title Home
-
-
-block contenido
-	section#home
-		.container
-			.row
-				.col.s12		
-					.logo
-						img(src='assets/imagenes/logo-ma.png')
-					.mercapp
-						img(src='assets/imagenes/logo_mapp.png')
-					.img-home
-					button.busca-home
-						a(href="bienvenido.html")
-							p Busca tu mercado
-					button.inicia-sesion
-						a
-							p Iniciar sesión
-					p.registrate ¿No tienes una cuenta? 
-						a 
-							span Regístrate
-					.redes
-						.red-social
-							span
-								i.fa.fa-facebook.fa-2x
-						.red-social			
-							span
-								i.fa.fa-twitter.fa-2x
-						.red-social			
-							span
-								i.fa.fa-google-plus.fa-2x
-
-
-						
-					
-
+		script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.min.js")
+		script(type='text/javascript', src='assets/js/materialize.min.js')
+		script(type='text/javascript', src='assets/js/materialize.js')
+		script(type='text/javascript', src='assets/js/modal.js')
