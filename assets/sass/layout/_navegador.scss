@@ -1,0 +1,25 @@
+nav{
+	background: white;
+	.brand-logo{
+		img{
+			width: 70px;
+			padding: 10px;	
+		}
+	}
+	.button-collapse{
+		img{
+			width: 45px;
+			padding-top: 15px;
+			padding-left: 15px;
+		}
+	}
+	ul{
+		a{
+			color: black;
+			font-weight: 700;
+		}
+		a:hover{
+			background: $celeste;
+		}
+	}
+}
