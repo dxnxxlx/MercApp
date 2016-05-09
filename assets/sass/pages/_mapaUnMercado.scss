@@ -1,0 +1,56 @@
+section#mapa-mercado-elegido{
+	background-color: $verde-fondo;
+	background-size: 100%;
+	.lista-dropdown{
+		margin-top: 20px;
+		margin-bottom: 10px;
+		a.btn{
+			border-radius: 25px;
+			background-color: $verde-claro;
+			font-size: 14px;
+			font-weight: 600;
+			height: 30px;
+		}
+		ul#dropdown1{
+			border-bottom-left-radius: 7px;
+			border-bottom-right-radius: 7px; 
+			border-radius: 7px;
+
+			li{ 
+				a{
+					color: black;
+					font-size: 13px;
+					&:hover{
+						background-color: $verde-claro;
+						color: white;
+					}
+				}
+			}
+		} 
+	}
+	.datos-mercado{
+		margin-bottom: 20px;
+		p{
+			font-size: 13px;
+			&.nombre-mercado{
+			font-weight: 600;
+			font-size: 16px;
+			}
+		}
+
+		.img-mercado{
+			img{
+				display: inline-block;
+				margin: auto;
+				text-align: center;
+			}
+		}
+	}
+	.mapa{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		iframe{
+		
+		}
+	}
+}
