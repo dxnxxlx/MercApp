@@ -1,0 +1,115 @@
+body {
+  height: 100%;
+  width: 100%; }
+
+nav {
+  background: white; }
+  nav .brand-logo img {
+    width: 70px;
+    padding: 10px; }
+  nav .button-collapse img {
+    width: 45px;
+    padding-top: 15px;
+    padding-left: 15px; }
+  nav ul a {
+    color: black;
+    font-weight: 700; }
+  nav ul a:hover {
+    background: #A7E29F; }
+
+section#home {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  background-image: url("../imagenes/bgapp.jpg");
+  background-repeat: no-repeat; }
+  section#home .logo {
+    margin: auto; }
+    section#home .logo img {
+      width: 34%;
+      margin-left: 33%; }
+  section#home .mercapp img {
+    width: 100%;
+    margin-top: -16px; }
+  section#home .img-home {
+    width: 66%;
+    height: 180px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px; }
+  section#home button.busca-home {
+    display: block;
+    background-color: #F28705;
+    border-radius: 18px;
+    height: 40px;
+    width: 190px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-left: 16%; }
+    section#home button.busca-home a p {
+      font-family: 'Raleway';
+      font-weight: 900;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+      margin: 0;
+      margin: auto; }
+  section#home button.inicia-sesion {
+    display: block;
+    background-color: #A1BC31;
+    border-radius: 20px;
+    height: 40px;
+    width: 190px;
+    border-style: none;
+    margin-bottom: 5px;
+    margin-left: 16%; }
+    section#home button.inicia-sesion a p {
+      font-family: 'Raleway';
+      font-weight: 900;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      margin: 0;
+      margin: auto; }
+  section#home p.registrate {
+    font-family: 'Raleway';
+    font-size: 14px;
+    margin: 0;
+    text-align: center; }
+    section#home p.registrate a {
+      text-decoration: none; }
+      section#home p.registrate a span {
+        font-weight: bold;
+        color: black; }
+  section#home .redes {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 11px; }
+    section#home .redes .red-social {
+      display: inline-block;
+      padding-left: 3px;
+      padding-right: 3px; }
+
+#perfil {
+  background: #A7E29F;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 7px;
+  padding-top: 5px; }
+  #perfil h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700; }
+  #perfil .mercado {
+    width: 100%;
+    padding-top: 15px; }
+  #perfil .row .text {
+    margin-top: 15px; }
+    #perfil .row .text .per {
+      margin: 0; }
+  #perfil .row img {
+    width: 100%;
+    height: 100%; }
+
+/*# sourceMappingURL=main.css.map */
