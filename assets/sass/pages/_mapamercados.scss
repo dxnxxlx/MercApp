@@ -28,8 +28,13 @@ section#mapa-mercados{
 			}
 		} 
 	}
-	p.haz-click{
-		text-align: center;
-		font-weight: 600;
+	a{
+		text-decoration: none;
+		color: black;
+		p.haz-click{
+			text-align: center;
+			font-weight: 600;
+		}
 	}
+
 }

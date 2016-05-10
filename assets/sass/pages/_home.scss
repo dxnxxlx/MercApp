@@ -7,22 +7,17 @@ section#home{
 	.logo{
 		margin: auto;
 		img{
-			width: 34%;
-			margin-left: 33%;
+			width: 100%;
+			margin-top: -5px;			
 		}
 	}
 	.mercapp{
 		img{
-			width: 100%;
-			margin-top: -16px;
+			width: 68%;
+			margin-left: 15%;
+			margin-top: 24px;
+			margin-bottom: 37px;
 		}
-	}
-	.img-home{
-		width: 66%;
-		height: 180px;
-		border: 1px solid black;
-		margin: auto;
-		margin-bottom: 20px;
 	}
 	button.busca-home{
 		@include block;

@@ -26,17 +26,13 @@ section#home {
   section#home .logo {
     margin: auto; }
     section#home .logo img {
-      width: 34%;
-      margin-left: 33%; }
+      width: 100%;
+      margin-top: -5px; }
   section#home .mercapp img {
-    width: 100%;
-    margin-top: -16px; }
-  section#home .img-home {
-    width: 66%;
-    height: 180px;
-    border: 1px solid black;
-    margin: auto;
-    margin-bottom: 20px; }
+    width: 68%;
+    margin-left: 15%;
+    margin-top: 24px;
+    margin-bottom: 37px; }
   section#home button.busca-home {
     display: block;
     background-color: #F28705;
@@ -102,8 +98,15 @@ section#home {
     padding: 15px 0;
     font-weight: 700; }
   #bienvenido .btn {
+    background-color: #F28705;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
     margin: 10px 0;
-    background-color: #F28705; }
+    border-radius: 30px;
+    text-transform: none; }
 
 #lista {
   background: #A7E29F;
@@ -170,9 +173,12 @@ section#mapa-mercados {
         section#mapa-mercados .lista-dropdown ul#dropdown1 li a:hover {
           background-color: #A1BC31;
           color: white; }
-  section#mapa-mercados p.haz-click {
-    text-align: center;
-    font-weight: 600; }
+  section#mapa-mercados a {
+    text-decoration: none;
+    color: black; }
+    section#mapa-mercados a p.haz-click {
+      text-align: center;
+      font-weight: 600; }
 
 section#mapa-mercado-elegido {
   background-color: #BBDBAC;
