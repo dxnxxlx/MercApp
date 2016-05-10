@@ -1,0 +1,89 @@
+doctype html
+html(lang='es-PE')
+	head
+		meta(charset='UTF-8')
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+		meta(name="description" content="")
+		title MercApp
+		link(href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,600' rel='stylesheet' type='text/css')
+		link(rel="shortcut icon", type="image/png", href="assets/imagenes/logo-ma.png")
+		link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/materialize.min.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/materialize.css')
+		link(rel='stylesheet', type='text/css', href='assets/css/index.css')  
+	body
+		//- HEADER
+		header
+			nav
+				.container
+					.nav-wrapper
+						a.brand-logo(href="#") 
+							img(src="assets/imagenes/logo-ma.png")
+						a.button-collapse(href="#", data-activates="mobile-demo")
+							i.material-icons 
+								img(src="assets/imagenes/menu.png")
+						ul.right.hide-on-med-and-down
+							li
+								a(href="index.html") Inicio
+							li
+								a(href="#services") ¿Cómo funciona?
+							li
+								a(href="#download") Descárgalo
+						ul#mobile-demo.side-nav
+							li
+								a(href="index.html") Inicio
+							li
+								a(href="#services") ¿Cómo funciona?
+							li
+								a(href="#download") Descárgalo
+		section#indexbg
+			.container
+				.row
+					.col.m8
+						img.imglogo(src="assets/imagenes/logowebmapp.png")
+						h3 MercApp es la app que necesitabas, te permite conocer los mercados en todos los distritos que desees para poder llevarte las mejores ofertas del mercado!!
+						i.fa.fa-arrow-down.center
+					.col.m4.center
+						img.imgiphone(src="assets/imagenes/iphone.png")
+		section#services
+			.container
+				h2 ¿Cómo funciona?
+				hr
+				.row
+					.col.m4.center
+						img(src="assets/imagenes/icon1.png")
+						h4 Regístrate
+						p Es súper fácil, sólo necesitas crear un nuevo usuario junto con un correo electrónico y ya podrás usar la app!
+					.col.m4.center
+						img(src="assets/imagenes/icon2.png")
+						h4 Busca tu mercado
+						p Coloca el distrito en el que desees ubicar el mercado más cercano y recuerda que ahorrar es lo primero.
+					.col.m4.center
+						img(src="assets/imagenes/icon3.png")
+						h4 Comparte experiencias
+						p Comparte las fotos de tu productos favoritos y las ofertas que encuentres con el resto del mundo!
+		section#download
+			.container
+				h2 ¡Descárgalo ahora!
+				hr
+				h5 Sé el primero en probar nuestra versión beta.
+				.row
+					.col.s12.m7
+						.col.s6.offset-s3
+							a.btn.waves-effect.waves-light(href="home.html") Pruébalo ahora
+				.row.downbtn
+					.col.s12.m7
+						.row.center
+							.col.s12
+								img(src="assets/imagenes/btnplaystore.png")
+							.col.s12
+								img(src="assets/imagenes/btnapple.png")
+		footer
+			.container
+				p ©2016 DaVaKa2 - MercApp. Todos los derechos reservados.
+		script(type="text/javascript", src="https://code.jquery.com/jquery-2.1.1.min.js")
+		script(type='text/javascript', src='assets/js/materialize.min.js')
+		script(type='text/javascript', src='assets/js/materialize.js')
+		script(type='text/javascript', src='assets/js/modal.js')

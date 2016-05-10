@@ -1,14 +1,237 @@
-@import "helpers/_variables.scss";
-@import "helpers/_mixins.scss";
-@import "helpers/_utilities.scss";
-@import "base/_common.scss";
-@import "layout/_navegador.scss";
-@import "pages/_home.scss";
-@import "pages/_bienvenido.scss";
-@import "pages/_listaSelecionaDistrito.scss";
-@import "pages/_mapaMercadoCercano.scss";
-@import "pages/_mapamercados.scss";
-@import "pages/_mapaUnMercado.scss";
-@import "pages/_Oferta.scss";
-@import "pages/_perfilMercado.scss";
-@import "pages/_productoCompartir.scss";
+// VARIABLES
+$plomo: #2D2D2D;
+$yellow: #FDAE2B;
+$verde-logo: #6B8633;
+// RESPONSIVE
+$width-small: "screen and (max-width: 480px)";
+$width-sminter: "screen and (min-width: 481px) and (max-width: 768px)";
+$width-medium: "screen and (min-width: 768px) and (max-width: 1024px)";
+$width-large: "screen and (min-width: 1024px) and (max-width: 1300px)";
+
+// MIXINS
+@mixin font($fsize, $fweight){
+	font-family: "Raleway", Arial, sans-serif;
+	font-size: $fsize;
+	font-weight: $fweight;
+}
+@mixin transition($trans-time) {
+-webkit-transition: all $trans-time ease-out;
+-moz-transition: all $trans-time ease-out;
+-o-transition: all $trans-time ease-out;
+transition: all $trans-time ease-out;
+}
+
+// CSS
+.container {
+	width: 90%;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	@include font(3em, 900);
+	margin-bottom: 0;
+}
+h3 {
+	@include font(2.7em, 800);
+}
+h4 {
+	@include font(2.2em, 700);
+}
+p {
+	@include font(1.3em, 500);
+}
+hr {
+	background-color: #88E39D;
+	border: none;
+	height: 10px;
+	margin-right: 65%;
+}
+// NAV BAR
+nav {
+	background-color: white;
+	img {
+		padding-top: 10px;
+		width: 45%;
+	}
+	ul a {
+		@include font(1.6em, 600);
+		color: $plomo;
+		&:hover {
+			@include transition(0.3s);
+			color: $verde-logo;
+			background-color: transparent;
+		}
+	}
+}
+
+// INDEX-BG
+#indexbg {
+	background: url("../imagenes/bgindex.jpg") 0 0 no-repeat fixed;
+	background-size: cover;
+	padding-top: 80px;
+	.imglogo {
+		width: 80%;
+	}
+	.imgiphone {
+		width: 70%;
+	}
+	.fa {
+		font-size: 5em;
+	}
+}
+
+// SERVICES
+#services {
+	padding: 6% 0;
+	img {
+		width: 60%;
+	}
+}
+
+// DOWNLOAD
+#download {
+	background: url("../imagenes/download.png") 100% 0 no-repeat;
+	background-size: 55%;
+	padding-bottom: 3%;
+	.btn {
+		@include font(1.7em, 200);
+		background-color: $yellow;
+		border-radius: 45px;
+		width: 100%;
+		margin-top: 50px;
+		height: 50px;
+		padding-top: 2%;
+	}
+	.downbtn {
+		padding-top: 60px;
+		img {
+			width: 300px;
+		}
+	}
+}
+// FOOTER
+footer {
+	background-color: $yellow;
+	padding: 20px 0;
+	p {
+		margin: 0;
+	}
+}
+
+@media #{$width-small} {
+	#indexbg {
+		background: url("../imagenes/bgindexsmall.jpg") 0 0 no-repeat fixed;
+		background-size: cover;
+		padding-top: 30px;
+		.imgiphone {
+			width: 50%;
+		}
+		h3 {
+			font-size: 1.5em;
+		}
+	}
+	#download {
+		background: url("../imagenes/download.png") 100% 83% no-repeat;
+    background-size: 45%;
+    padding-bottom: 22px;
+		.btn {
+			@include font(0.85em, 200);
+			height: 42px;
+			margin-top: 0px;
+		}
+		.downbtn {
+			padding-top: 0px;
+			img {
+    		width: 100px;
+    	}
+    }
+	}
+	footer {
+		margin-top: -50px;
+		padding: 15px 0;
+		p {
+			font-size: 1em;
+		}
+	}
+}
+@media #{$width-sminter} {
+	#indexbg {
+		background: url("../imagenes/bgindexsmall.jpg") 0 0 no-repeat fixed;
+		background-size: cover;
+		.imgiphone {
+			width: 100%;
+		}
+		h3 {
+			font-size: 2.1em;
+		}
+	}	
+	#download {
+		h5 {
+			margin-right: 30%;
+		}
+		.btn {
+			@include font(0.85em, 200);
+			height: 42px;
+			margin-top: 0px;
+		}
+		.downbtn {
+			padding-top: 0px;
+			img {
+    		width: 80px;
+    	}
+    }
+	}
+	footer {
+		margin-top: -40px;
+		padding: 15px 0;
+		p {
+			font-size: 1em;
+		}
+	}
+}
+@media #{$width-medium} {
+	#indexbg {
+		background: url("../imagenes/bgindexmedium.jpg") 0 0 no-repeat fixed;
+		background-size: cover;
+	}
+	#download {
+		background: url("../imagenes/download.png") 100% 0 no-repeat;
+		background-size: 55%;
+		padding-bottom: 3%;
+		h5 {
+			margin-right: 30%;
+		}
+		.btn {
+			@include font(0.85em, 200);
+			height: 42px;
+			margin-top: 0px;
+		}
+		.downbtn {
+			padding-top: 10px;
+			img {
+    		width: 150px;
+    	}
+    }
+	}
+	footer {
+		margin-top: -20px;
+		padding: 15px 0;
+		p {
+			font-size: 1em;
+		}
+	}
+}
+@media #{$width-large} {
+	#download {
+		background: url("../imagenes/download.png") 100% 0 no-repeat;
+		background-size: 55%;
+		padding-bottom: 3%;
+		.downbtn {
+			padding-top: 30px;
+			img {
+    		width: 200px;
+    	}
+    }
+	}
+}
