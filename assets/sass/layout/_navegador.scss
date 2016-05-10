@@ -1,3 +1,5 @@
+$darkblue: #29B479;
+$darkorange: #F28705;
 nav{
 	background: white;
 	.brand-logo{
@@ -24,6 +26,11 @@ nav{
 		}
 		a:hover{
 			background: $celeste;
+		}
+	}
+	.side-nav {
+		li:first-child {
+			border-bottom: 3px solid $darkorange;
 		}
 	}
 }

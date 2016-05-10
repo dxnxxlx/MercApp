@@ -8,6 +8,7 @@ section#mapa-mercados{
 		a.btn{
 			border-radius: 31px;
 			background-color: $verde-claro;
+			color: white;
 			font-size: 14px;
 			font-weight: 600;
 			height: 30px;
@@ -37,4 +38,9 @@ section#mapa-mercados{
 		}
 	}
 
+}
+
+.fa-angle-double-down {
+	color: white;
+	font-weight: normal;
 }

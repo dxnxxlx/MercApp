@@ -1,9 +1,19 @@
 extends ../helpers/base.jade
 
-block titulo
-	title Home
+mixin png(png)
+	img(src="assets/imagenes/" + png + ".png")
+mixin offer(png,titoffer,distoffer,descoffer)
+	.boxoffer
+		+png(png)
+		h5.titoffer=titoffer
+		h5=distoffer
+		p.descoffer=descoffer
 
+block titulo
+	title Oferta
 
 block contenido
-	section
-		h1 Hola
+	section#oferta.center
+		h4 OFERTAS DEL DÍA
+		+offer("mercado1", "Mercado Virgen del Rosario","Miraflores","Aprovecha la promoción. Lleva tu kilo de manzanas a 2 soles!!")
+		+offer("mercado2", "Mercado Señor de Muruhuay", "San Isidro", "2x1 en todo abarrotes sólo por hoy!!!")

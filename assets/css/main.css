@@ -19,6 +19,8 @@ nav {
       font-size: 20px; }
   nav ul a:hover {
     background: #A7E29F; }
+  nav .side-nav li:first-child {
+    border-bottom: 3px solid #F28705; }
 
 section#home {
   padding-top: 30px;
@@ -170,6 +172,7 @@ section#mapa-mercados {
     section#mapa-mercados .lista-dropdown a.btn {
       border-radius: 31px;
       background-color: #A1BC31;
+      color: white;
       font-size: 14px;
       font-weight: 600;
       height: 30px; }
@@ -188,6 +191,10 @@ section#mapa-mercados {
     section#mapa-mercados a p.haz-click {
       text-align: center;
       font-weight: 600; }
+
+.fa-angle-double-down {
+  color: white;
+  font-weight: normal; }
 
 section#mapa-mercado-elegido {
   background-color: #BBDBAC;
@@ -230,6 +237,30 @@ section#mapa-mercado-elegido {
   section#mapa-mercado-elegido .mapa {
     margin-top: 15px;
     margin-bottom: 15px; }
+
+body {
+  background-color: #A7E29F;
+  font-family: "Raleway", Arial, sans-serif; }
+
+section#oferta h4 {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 800;
+  margin-top: 20px; }
+section#oferta .boxoffer {
+  border-bottom: 4px solid #29B479;
+  margin: 0 8%; }
+  section#oferta .boxoffer h5 {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #166141; }
+    section#oferta .boxoffer h5.titoffer {
+      color: black; }
+  section#oferta .boxoffer p.descoffer {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600; }
 
 #perfil {
   background: #A7E29F;

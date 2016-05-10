@@ -1,0 +1,32 @@
+$skyblue: #A7E29F;
+$darkblue: #29B479;
+
+@mixin font($fsize, $fweight){
+	font-family: "Raleway", Arial, sans-serif;
+	font-size: $fsize;
+	font-weight: $fweight;
+}
+body {
+	background-color: $skyblue;
+	font-family: "Raleway", Arial, sans-serif;
+}
+section#oferta {
+	h4 {
+		@include font(2em,800);
+		margin-top: 20px;
+	}
+	.boxoffer {
+		border-bottom: 4px solid $darkblue;
+		margin: 0 8%;
+		h5 {
+			@include font(1.5em,800);
+			color: darken($darkblue, 20);
+			&.titoffer {
+				color: black;
+			}
+		}
+		p.descoffer {
+			@include font(1.2em,600);
+		}
+	}
+}
